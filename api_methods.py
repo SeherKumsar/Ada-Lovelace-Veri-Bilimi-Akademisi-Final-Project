@@ -1,5 +1,3 @@
-# Youtube api key ile yorumları çekme
-
 import pandas as pd
 
 def get_chanel_stats(youtube, channel_ids):
@@ -88,7 +86,8 @@ def get_video_comments(youtube, video_ids):
 
             next_page_token = response.get('nextPageToken')
 
-    return pd.DataFrame(comment_list)
+    return comment_list
+
 
         
 
