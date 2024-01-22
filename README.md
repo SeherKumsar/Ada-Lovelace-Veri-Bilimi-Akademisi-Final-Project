@@ -11,14 +11,9 @@
 Gereksiz karakterleri ve noktalama işaretlerini kaldırın.
 Büyük-küçük harf dönüşümü yapın.
 
-**2. Stop Words:**
-Türkçe'de yaygın olarak kullanılan "stop words" adı verilen, anlam taşımayan kelimeleri çıkarın. (NLTK)
-
-**3. Tokenization:**
+**2. Tokenization:**
 Metni kelimelere ayırın.
 
-**4. Kök Çıkarma (Stemming) veya Lematizasyon:**
-Kelimelerin köklerini çıkarmak veya lematize etmek, benzer anlamlı kelimeleri birleştirmenize yardımcı olabilir.
 
 ### - Sentiment Analizi yapmak için önceden eğitilmiş bir model
 
